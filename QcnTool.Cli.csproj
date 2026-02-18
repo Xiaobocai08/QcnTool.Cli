@@ -11,6 +11,11 @@
 		<Version>1.0.0</Version>
 		<AssemblyVersion>1.0.0.0</AssemblyVersion>
 		<FileVersion>1.0.0.0</FileVersion>
+		<WindowsSupportedOSPlatformVersion>5.1</WindowsSupportedOSPlatformVersion>
+		<TargetPlatformMinVersion>5.1</TargetPlatformMinVersion>
+		<BuiltInComInteropSupport>true</BuiltInComInteropSupport>
+		<CustomResourceTypesSupport>true</CustomResourceTypesSupport>
+		<OptimizationPreference>Size</OptimizationPreference>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -20,8 +25,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="VC-LTL" Version="5.3.1" />
-	  <PackageReference Include="YY-Thunks" Version="1.1.9" />
+		<PackageReference Include="VC-LTL" Version="5.3.1" />
+		<PackageReference Include="YY-Thunks" Version="1.1.9" />
 	</ItemGroup>
 
 </Project>
